@@ -18,13 +18,16 @@ focused classes, rather than a few catch-all classes.
 package threesolid;
 
 public class Manager {
-	Workable worker;
-
+	
+/*	Workable worker;
 	public void setWorker(Workable w) {
 		worker=w;
 	}
-
 	public void manage() {
 		worker.work();
+	}*/
+
+	public void manage(){
+		System.out.println("Manager has managed.");
 	}
 }
