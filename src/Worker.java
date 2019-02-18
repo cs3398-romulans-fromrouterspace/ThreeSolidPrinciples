@@ -9,11 +9,11 @@ import threesolid.ISick;
 
 class Worker extends BaseWorker implements IEat, ISick{
 	public void work() {
-		System.out.format("Worker working...");
+		System.out.println("Worker working...");
 	}
 
 	public void eat() {
-		System.out.format("Worker eating...")
+		System.out.println("Worker eating...");
 	}
 }
 
