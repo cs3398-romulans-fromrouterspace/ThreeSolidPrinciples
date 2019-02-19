@@ -6,6 +6,7 @@ import java.io.*;
 
 import threesolid.IEat;
 import threesolid.ISick;
+import threesolid.BaseWorker;
 
 class TempWorker extends BaseWorker implements IEat, ISick{
 
@@ -24,4 +25,4 @@ class TempWorker extends BaseWorker implements IEat, ISick{
 
 // Single Responsibility is in play here because this class only handels the TempWorker class and nothing else
 // Interface Segregation was used to keep the eat/sick interface  separate from the robot interface because people don't reboot
-//Open/Close was broken to have more interfaces 
+//Open/Close was broken to have more interfaces

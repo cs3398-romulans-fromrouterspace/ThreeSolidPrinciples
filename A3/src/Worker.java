@@ -4,19 +4,16 @@ import java.awt.*;        // Using AWT container and component classes
 import java.awt.event.*;  // Using AWT event classes and listener interfaces
 import java.io.*;
 
-import threesolid.IEat;
-import threesolid.ISick;
+import threesolid.Workable;
+import threesolid.Feedable;
 
-class Worker extends BaseWorker implements IEat, ISick{
+class Worker implements Workable, Feedable{
 	public void work() {
-		System.out.println("Worker working...");
+		// ....working
 	}
 
 	public void eat() {
-		System.out.println("Worker eating...");
-	}
-	public void sick(){
-		System.out.println("I need to use my sick days");
+		//.... eating in launch break
 	}
 }
 
