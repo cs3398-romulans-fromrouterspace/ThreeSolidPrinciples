@@ -8,7 +8,7 @@ import java.io.*;
 Follows Interface Segregation Principle
 Interfaces are client specific rather than general purpose
 */
-interface Feedable {
+interface IEat {
 	public void eat();
 	
 }

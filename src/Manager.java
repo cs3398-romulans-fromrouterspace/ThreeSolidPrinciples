@@ -17,7 +17,7 @@ focused classes, rather than a few catch-all classes.
 
 package threesolid;
 
-public class Manager implements WorkableInterface{
+public class Manager extends Worker{
 	
 /*	WorkableInterface worker;
 	// I removed this portion because it was simpler to have the Manager class
@@ -29,7 +29,6 @@ public class Manager implements WorkableInterface{
 		worker.work();
 	}
 */
-	public void manage(){
-		System.out.println("Manager has managed.");
-	}
+	public void manage(){System.out.println("Manager has managed.");}
+	
 }

@@ -8,6 +8,6 @@ import java.io.*;
 Follows Interface Segregation Principle
 Interfaces are client specific rather than general purpose
 */
-interface Workable {
-	public void work();
+interface ISick {
+	public void sick();
 }
