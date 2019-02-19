@@ -10,5 +10,4 @@ Interfaces are client specific rather than general purpose
 */
 interface Workable {
 	public void work();
-	
 }

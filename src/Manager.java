@@ -17,16 +17,18 @@ focused classes, rather than a few catch-all classes.
 
 package threesolid;
 
-public class Manager {
+public class Manager implements WorkableInterface{
 	
-/*	Workable worker;
-	public void setWorker(Workable w) {
+/*	WorkableInterface worker;
+	// I removed this portion because it was simpler to have the Manager class
+	// as a subclass, rather than creating a contained object.
+	public void setWorker(WorkableInterface w) {
 		worker=w;
 	}
 	public void manage() {
 		worker.work();
-	}*/
-
+	}
+*/
 	public void manage(){
 		System.out.println("Manager has managed.");
 	}
