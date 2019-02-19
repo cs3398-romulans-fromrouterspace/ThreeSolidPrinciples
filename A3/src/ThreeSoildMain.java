@@ -4,10 +4,10 @@ import java.awt.*;        // Using AWT container and component classes
 import java.awt.event.*;  // Using AWT event classes and listener interfaces
 import java.io.*;
 
-import threesolid.IWorker;
+import threesolid.Workable;
 import threesolid.Feedable;
 
-public class ThreeSolidMain
+public class ThreeSoildMain
 {
 
    public static Manager tsManager = new Manager();
