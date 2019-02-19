@@ -15,6 +15,9 @@ class Worker extends BaseWorker implements IEat, ISick{
 	public void eat() {
 		System.out.println("Worker eating...");
 	}
+	public void sick(){
+		System.out.println("I need to use my sick days");
+	}
 }
 
 // Single responsibilty is in play with this class because it only represents general workers.
