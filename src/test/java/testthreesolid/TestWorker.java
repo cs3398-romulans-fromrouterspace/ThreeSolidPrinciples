@@ -13,9 +13,9 @@ public class TestWorker {
 		assertEquals("Worker working...", w.work());
 	}
 
-	// @Test 
-	// @DisplayName("Hollie's Fail Test")
-	// public void newTestHBWWorkerFail() {
-	// 	assertEquals("I am a temp worker, I eat everything", t.eat());
-	// }
+	@Test 
+	@DisplayName("Hollie's Fail Test")
+	public void newTestHBWWorkerFail() {
+		assertEquals("I am a temp worker, I eat everything", t.eat());
+	}
 }
