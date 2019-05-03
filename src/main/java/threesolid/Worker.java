@@ -8,12 +8,12 @@ import threesolid.IEat;
 import threesolid.ISick;
 
 class Worker extends BaseWorker implements IEat, ISick{
-	public void work() {
-		System.out.println("Worker working...");
+	public String work() {
+		return "Worker working...";
 	}
 
-	public void eat() {
-		System.out.println("Worker eating...");
+	public String eat() {
+		return "Worker eating...";
 	}
 	public void sick(){
 		System.out.println("I need to use my sick days");

@@ -12,8 +12,8 @@ class SuperWorker extends BaseWorker implements IEat, ISick{
 	public void work() {
 		System.out.format(".... working much more");
 	}
-	public void eat() {
-		System.out.format(".... eating so much more");
+	public String eat() {
+		return ".... eating so much more";
 	}
 	public void sick() {
 		System.out.format(".... Recovering so much faster");

@@ -11,11 +11,11 @@ import threesolid.BaseWorker;
 class TempWorker extends BaseWorker implements IEat, ISick{
 
   @Override
-  public void work() {
+  public void basework() {
 		System.out.println("I do diffrent work");
 	}
-  public void eat() {
-      System.out.println("I am a temp worker, I don't eat much");
+  public String eat() {
+      return "I am a temp worker, I don't eat much";
   }
   public void sick() {
       System.out.println("I can't call off sick, I have no sick days.");

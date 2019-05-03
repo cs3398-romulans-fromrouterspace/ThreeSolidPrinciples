@@ -9,6 +9,6 @@ Follows Interface Segregation Principle
 Interfaces are client specific rather than general purpose
 */
 interface IEat {
-	public void eat();
+	public String eat();
 	
 }

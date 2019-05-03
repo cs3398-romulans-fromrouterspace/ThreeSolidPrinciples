@@ -7,7 +7,7 @@ import java.io.*;
 
 public class BaseWorker {
 
-	public void work(){
+	public void basework(){
 		System.out.println("BaseWorker doing some work, yeehaw.");
 	}
 

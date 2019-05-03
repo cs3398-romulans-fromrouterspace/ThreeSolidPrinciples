@@ -18,7 +18,7 @@ public class ThreeSoildMain {
 
         BaseWorker Kendra = new BaseWorker(); // Calls BaseWorker class
         System.out.println("\nBaseWorker: ");
-        Kendra.work();
+        Kendra.basework();
 
         Worker David = new Worker(); // Calls worker class
         System.out.println("Worker: ");
@@ -34,7 +34,7 @@ public class ThreeSoildMain {
 
         TempWorker Joker = new TempWorker(); // Calls TempWorker Class
         System.out.println("TempWorker: ");
-        Joker.work();
+        Joker.basework();
         Joker.eat();
         Joker.sick();
 
