@@ -7,6 +7,12 @@ public class TestWorker {
 	@Test
 	@DisplayName("Work Method Test")
 	public void testWorkMethod(){
-		assertEquals(w.work(),"I'm working already!",”Mismatch between test text and method text”);
+		assertEquals("I'm working already!", w.work());
 	}
+
+	// @Test
+	// @DisplayName("Hollie's Pass Test")
+	// public void newtesthbwWorkerPass() {
+
+	// }
 }
