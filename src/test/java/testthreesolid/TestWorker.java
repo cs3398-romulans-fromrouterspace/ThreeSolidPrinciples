@@ -7,8 +7,8 @@ public class TestWorker {
 	 Worker w = new Worker();
 
 	@Test
-	@DisplayName("Work Method Test")
-	public void testWorkMethod(){
+	@DisplayName("Austin Pass")
+	public void newTestAMWorkerPass(){
 		assertEquals("Worker working...", w.work());
 	}
 
