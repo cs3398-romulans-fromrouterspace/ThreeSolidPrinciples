@@ -1,3 +1,4 @@
+
 package threesolid;
 
 import java.awt.*;        // Using AWT container and component classes
@@ -8,16 +9,16 @@ import threesolid.IEat;
 import threesolid.ISick;
 
 class Worker extends BaseWorker implements IEat, ISick{
-	public void work() {
-		System.out.println("Worker working...");
-	}
+public void work() {
+			System.out.println("Worker working...");
+}
 
-	public void eat() {
-		System.out.println("Worker eating...");
-	}
-	public void sick(){
-		System.out.println("I need to use my sick days");
-	}
+public void eat() {
+System.out.println("Worker eating...");
+}
+public void sick(){
+System.out.println("I need to use my sick days");
+}
 }
 
 // Single responsibilty is in play with this class because it only represents general workers.

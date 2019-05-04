@@ -11,8 +11,8 @@ class Robot extends BaseWorker implements IReboot{
 	public void work() {
 		System.out.println("I do robot work");
 	}
-	public void reboot(){
-		System.out.println("Need to reboot segfault");
+	public String reboot(){
+		 return "Need to reboot segfault";
 	}
 }
 
