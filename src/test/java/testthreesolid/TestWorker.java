@@ -2,12 +2,19 @@ package threesolid;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+
 public class TestWorker {
-	private  Worker w = new Worker();
+	 Worker w = new Worker();
+
 	@Test
 	@DisplayName("Work Method Test")
 	public void testWorkMethod(){
-		assertEquals(w.work(),"I'm working already.",”Mismatch between test text and method text”);
+		assertEquals("Worker working...", w.work());
 	}
-	/* slight change to see what happens*/
+
+	@Test
+	@DisplayName("Austin fail")
+	public void newTestAMWorkerFail(){
+		assertEquals("This is gonna fail", w.work());
+	}
 }

@@ -8,8 +8,8 @@ import threesolid.IEat;
 import threesolid.ISick;
 
 class Worker extends BaseWorker implements IEat, ISick{
-	public void work() {
-		System.out.println("Worker working...");
+	public String work() {
+		return "Worker working...";
 	}
 
 	public void eat() {
