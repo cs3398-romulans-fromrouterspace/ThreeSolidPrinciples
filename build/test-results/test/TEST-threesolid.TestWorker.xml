@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="threesolid.TestWorker" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-05-04T03:13:58" hostname="DESKTOP-RQ7KACD" time="0.007">
+<testsuite name="threesolid.TestWorker" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-05-04T03:18:55" hostname="DESKTOP-RQ7KACD" time="0.007">
   <properties/>
   <testcase name="newTestKAMWWorkerFail()" classname="threesolid.TestWorker" time="0.007">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;Robot will not reboot&gt; but was: &lt;Need to reboot segfault&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;Robot will not reboot&gt; but was: &lt;Need to reboot segfault&gt;
@@ -8,7 +8,7 @@
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
-	at threesolid.TestWorker.newTestKAMWWorkerFail(TestWorker.java:14)
+	at threesolid.TestWorker.newTestKAMWWorkerFail(TestWorker.java:13)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
